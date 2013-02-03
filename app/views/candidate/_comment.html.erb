@@ -1,0 +1,11 @@
+
+<div class="comment">
+  <%= form_tag  url_for("candidate/index") do %>
+
+  <%= text_area_tag :comments, nil, :class=>'ckeditor' %>
+
+  <%= submit_tag "submit", :class=> "btn btn-primary" %>
+
+  <% end %>
+
+</div>

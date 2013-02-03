@@ -1,0 +1,25 @@
+@import 'bootstrap';
+
+.row_data {
+	
+	font-size:13px;
+	font-family: verdana;
+}
+
+table.display thead th {
+font-weight: bold;
+font-size: 15px;
+font-family:verdana;
+cursor: pointer;
+
+}
+
+navlist {
+	list-style:none;
+}
+.navlist li
+{
+display: inline;
+list-style-type: none;
+padding-right: 20px;
+}
